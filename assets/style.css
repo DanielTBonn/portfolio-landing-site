@@ -1,11 +1,22 @@
 
 .header {
     display: flex;
+    justify-content: space-between;
 }
 
-.navbar {
-    justify-content: flex-end;
+.nav-item {
+    display: flex;
+    list-style: none;
 }
+
+.nav-item li {
+    font-size: 20px;
+    margin-right: 25px;
+}
+
+.nav-item li a {
+    text-decoration: none;
+ }
 
 .about-me {
     margin-top: 500px;
