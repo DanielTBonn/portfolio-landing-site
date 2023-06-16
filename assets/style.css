@@ -1,8 +1,18 @@
+body {
+    padding: 0;
+    margin: 0;
+}
 
 .header {
+    background-color: navy;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.title {
     margin-left: 25px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .nav-item {
@@ -19,6 +29,7 @@
 .nav-item li a {
     text-decoration: none;
     color: black;
+    font-family: 'Times New Roman', Times, serif;
  }
 
 .about-me {
