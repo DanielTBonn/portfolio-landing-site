@@ -2,14 +2,16 @@
 .header {
     display: flex;
     justify-content: space-between;
+    margin-left: 25px;
 }
 
 .nav-item {
-    display: flex;
+    margin-top: 35px;
     list-style: none;
 }
 
 .nav-item li {
+    display: inline;
     font-size: 20px;
     margin-right: 25px;
 }
