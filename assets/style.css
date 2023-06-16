@@ -1,4 +1,12 @@
 
+.header {
+    display: flex;
+}
+
+.navbar {
+    justify-content: flex-end;
+}
+
 .about-me {
     margin-top: 500px;
 }
@@ -10,3 +18,4 @@
 .contact-info {
     margin-top: 500px;
 }
+
