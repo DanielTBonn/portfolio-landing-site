@@ -33,13 +33,20 @@ body {
     font-family: 'Times New Roman', Times, serif;
  }
 
-.project-info {
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 25px 0 25px;
+    padding: 10px;
+}
+
+ .project-info {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 10rem 15rem;
+    padding: 5rem 15rem;
     margin: 0;
-
 }
 
 .project-info img {
@@ -78,7 +85,7 @@ body {
     .project-info {
         flex-direction: column;
         align-items: center;
-        padding: 0;
+        padding: 4rem 0;
         flex: 1 0 200px;
     }
     
