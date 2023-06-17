@@ -32,20 +32,9 @@ body {
     font-family: 'Times New Roman', Times, serif;
  }
 
-.about-me {
-    margin-top: 500px;
-}
-
-.project-info {
-
-}
-
-.contact-info {
+.contact-item {
     display: flex;
     justify-content: center;
-}
-
-.contact-item {
     font-size: 20px;
     margin-right: 25px;
     list-style: none;
