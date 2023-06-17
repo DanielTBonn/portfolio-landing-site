@@ -41,7 +41,7 @@ body {
     padding: 10px;
 }
 
- .project-info {
+.project-info {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
