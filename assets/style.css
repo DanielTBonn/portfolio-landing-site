@@ -32,6 +32,16 @@ body {
     font-family: 'Times New Roman', Times, serif;
  }
 
+.project-info {
+    display: flex;
+    flex: nowrap;
+}
+
+.project-info img {
+    width: 25%;
+}
+
+
 .contact-item {
     display: flex;
     justify-content: center;
