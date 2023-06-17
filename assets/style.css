@@ -33,15 +33,20 @@ body {
  }
 
 .project-info {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     padding: 10rem 2rem;
+    display: block;
+}
+
+.test {
+    display: flex;
+    flex-wrap: wrap;
+
 }
 
 
 .project-info img {
-    width: 50%;
+    width: 35%;
     padding: 25px;
     margin: 5px 0 0 0;
     border: solid black 2px;
@@ -49,7 +54,7 @@ body {
 }
 
 .project-info img:first-of-type {
-    width: 100%;
+    width: 70%;
 }
 
 
