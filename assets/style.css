@@ -67,7 +67,7 @@ body {
     overflow: hidden;
 }
 
-.project-info img:first-of-type {
+.project-info .first-img {
     width: 100%;
 }
 
