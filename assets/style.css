@@ -78,13 +78,13 @@ body {
 
 .contact-item {
     font-size: 20px;
-    margin-right: 25px;
+    padding-inline-start: 0;
     list-style: none;
 }
 
 .contact-item li {
     display: inline;
-    margin: 0 50px 0 50px;
+    padding: 0 50px 0 50px;
     font-size: 20px;
 }
 
