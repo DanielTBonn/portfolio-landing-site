@@ -1,4 +1,3 @@
-
 body {
     padding: 0;
     margin: 0;
@@ -56,12 +55,16 @@ body {
     margin: 5px 0 0 0;
     border: solid black 2px;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 .project-info img:first-of-type {
     width: 100%;
 }
 
+.project-info img:hover {
+    box-shadow: 5px 5px 15px green;
+}
 
 .contact-info {
     display: flex;
