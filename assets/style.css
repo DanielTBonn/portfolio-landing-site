@@ -1,3 +1,4 @@
+
 body {
     padding: 0;
     margin: 0;
@@ -32,19 +33,43 @@ body {
     font-family: 'Times New Roman', Times, serif;
  }
 
-.project-info {
+.about-me {
     display: flex;
-    flex: nowrap;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 25px 0 25px;
+    padding: 10px;
+}
+
+ .project-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5rem 15rem;
+    margin: 0;
 }
 
 .project-info img {
-    width: 25%;
+    display: block;
+    width: 50%;
+    padding: 25px;
+    margin: 5px 0 0 0;
+    border: solid black 2px;
+    box-sizing: border-box;
+}
+
+.project-info img:first-of-type {
+    width: 100%;
 }
 
 
-.contact-item {
+.contact-info {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-item {
     font-size: 20px;
     margin-right: 25px;
     list-style: none;
@@ -54,4 +79,17 @@ body {
     display: inline;
     margin: 0 50px 0 50px;
     font-size: 20px;
+}
+
+@media screen and (max-width: 996px) {
+    .project-info {
+        flex-direction: column;
+        align-items: center;
+        padding: 4rem 0;
+        flex: 1 0 200px;
+    }
+    
+    .project-info img:first-of-type {
+        width: 50%;
+    }
 }
