@@ -37,10 +37,22 @@ body {
 }
 
 .project-info {
-    margin-top: 500px;
+
 }
 
 .contact-info {
-    margin-top: 500px;
+    display: flex;
+    justify-content: center;
 }
 
+.contact-item {
+    font-size: 20px;
+    margin-right: 25px;
+    list-style: none;
+}
+
+.contact-item li {
+    display: inline;
+    margin: 0 50px 0 50px;
+    font-size: 20px;
+}
