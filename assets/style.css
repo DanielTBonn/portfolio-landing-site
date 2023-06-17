@@ -67,7 +67,7 @@ body {
 }
 
 .project-info img:active {
-    box-shadow: 5px 5px 15px black;
+    box-shadow: 5px 5px 25px black;
 }
 
 .contact-info {
