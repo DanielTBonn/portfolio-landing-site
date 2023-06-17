@@ -1,3 +1,4 @@
+
 body {
     padding: 0;
     margin: 0;
@@ -36,11 +37,13 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 10rem 2rem;
+    padding: 10rem 15rem;
+    margin: 0;
+
 }
 
-
 .project-info img {
+    display: block;
     width: 50%;
     padding: 25px;
     margin: 5px 0 0 0;
@@ -64,4 +67,17 @@ body {
     display: inline;
     margin: 0 50px 0 50px;
     font-size: 20px;
+}
+
+@media screen and (max-width: 996px) {
+    .project-info {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        flex: 1 0 200px;
+    }
+    
+    .project-info img:first-of-type {
+        width: 50%;
+    }
 }
