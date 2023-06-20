@@ -48,6 +48,7 @@ body {
 }
 
 .project-info {
+    background-color: black;
     display: flex;
     flex-wrap: wrap;
     flex: 1 1 0;
@@ -111,7 +112,7 @@ body {
         flex: 1 0 200px;
     }
     
-    .project-info img:first-of-type {
+    .project-info a:first-of-type {
         width: 50%;
     }
 }
