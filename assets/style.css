@@ -33,7 +33,7 @@ body {
 }
 
 .nav-item li a,
-.contact-item li a{
+.contact-item li a {
     text-decoration: none;
     color: var(--click-color);
     font-family: 'Times New Roman', Times, serif;
@@ -56,7 +56,7 @@ body {
     margin: 0;
 }
 
-.project-info a{
+.project-info a {
     background-color: gray;
     display: block;
     width: 50%;
