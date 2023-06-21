@@ -1,6 +1,7 @@
 :root {
     --main-color: navy;
     --click-color: red;
+    --project-window-color: lime;
 }
 
 body {
@@ -62,7 +63,7 @@ body {
     width: 50%;
     padding: 25px;
     margin: 5px 0 0 0;
-    border: solid black 2px;
+    border: solid var(--project-window-color) 5px;
     box-sizing: border-box;
     height: 20rem;
     position: relative;
@@ -84,6 +85,16 @@ body {
     left: -9999px;
     right: -9999px;
     margin: auto;
+}
+
+.project-info a p {
+    background-color: tan;
+    border: solid 2px lime;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
 }
 
 .project-info a:hover {
