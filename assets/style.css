@@ -1,7 +1,8 @@
 :root {
-    --main-color: navy;
+    --main-color: #27374D;
     --click-color: red;
-    --project-window-color: lime;
+    --project-window-color:#191825;
+    
 }
 
 body {
@@ -13,8 +14,13 @@ body {
     background-color: var(--main-color);
     display: flex;
     justify-content: space-between;
-    padding-bottom: 10px;
+    padding-bottom: 10px; 
 }
+.title{
+    font-style: italic;
+    font-size: 50px;
+}
+
 
 .title {
     margin-left: 25px;
@@ -43,12 +49,15 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 25px 0 25px;
+    margin: 0 ;
     padding: 5rem 15rem 0 15rem;
+    background-color:#526D82 ;
+    border-color: rgb(45, 142, 142);
 }
 
 .project-info {
-    background-color: black;
+    background-color: #526D82 ;
+    ;
     display: flex;
     flex-wrap: wrap;
     flex: 2 1 0;
@@ -79,7 +88,7 @@ body {
 /* borrowed this code from stackoverflow https://stackoverflow.com/questions/14562457/center-oversized-image-in-div */
 .project-info a img {
     width: 100%;
-    position: absolute;
+    position: absolute ;
     top: -9999px;
     bottom: -9999px;
     left: -9999px;
@@ -108,6 +117,10 @@ body {
 }
 
 .contact-info {
+    background-color: #6c84a9;
+   color: #42197cbb;
+   font-size: x-large;
+   font-weight: bold;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -133,7 +146,7 @@ body {
         padding: 4rem 0;
         flex: 1 0 200px;
     }
-    
+      
     .project-info a,
     .project-info a:first-of-type {
         width: 50%;
