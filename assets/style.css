@@ -121,7 +121,9 @@ body {
         flex: 1 0 200px;
     }
     
+    .project-info a,
     .project-info a:first-of-type {
         width: 50%;
+        height: 20rem;
     }
 }
