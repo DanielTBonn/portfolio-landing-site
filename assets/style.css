@@ -1,3 +1,8 @@
+:root {
+    --main-color: navy;
+    --click-color: red;
+    --project-window-color: lime;
+}
 
 body {
     padding: 0;
@@ -5,7 +10,7 @@ body {
 }
 
 .header {
-    background-color: navy;
+    background-color: var(--main-color);
     display: flex;
     justify-content: space-between;
     padding-bottom: 10px;
@@ -27,9 +32,10 @@ body {
     margin-right: 25px;
 }
 
-.nav-item li a {
+.nav-item li a,
+.contact-item li a{
     text-decoration: none;
-    color: black;
+    color: var(--click-color);
     font-family: 'Times New Roman', Times, serif;
  }
 
@@ -38,30 +44,68 @@ body {
     flex-direction: column;
     align-items: center;
     margin: 0 25px 0 25px;
-    padding: 10px;
+    padding: 5rem 15rem 0 15rem;
 }
 
- .project-info {
+.project-info {
+    background-color: black;
     display: flex;
     flex-wrap: wrap;
+    flex: 2 1 0;
     justify-content: center;
     padding: 5rem 15rem;
     margin: 0;
 }
 
-.project-info img {
+.project-info a{
+    background-color: gray;
     display: block;
     width: 50%;
     padding: 25px;
     margin: 5px 0 0 0;
-    border: solid black 2px;
+    border: solid var(--project-window-color) 5px;
     box-sizing: border-box;
+    height: 20rem;
+    position: relative;
+    overflow: hidden;
 }
 
-.project-info img:first-of-type {
+.project-info a:first-of-type {
     width: 100%;
+    height: 40rem;
+    position: intial;
 }
 
+/* borrowed this code from stackoverflow https://stackoverflow.com/questions/14562457/center-oversized-image-in-div */
+.project-info a img {
+    width: 100%;
+    position: absolute;
+    top: -9999px;
+    bottom: -9999px;
+    left: -9999px;
+    right: -9999px;
+    margin: auto;
+}
+
+.project-info a p {
+    background-color: tan;
+    border: solid 2px lime;
+    font-size: 1.5rem;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25%;
+    padding: 1.75rem 1.5rem 1.75rem 1rem;
+}
+
+.project-info a:hover {
+    box-shadow: 5px 5px 15px green;
+}
+
+.project-info a:active {
+    box-shadow: 5px 5px 25px black;
+}
 
 .contact-info {
     display: flex;
@@ -71,13 +115,14 @@ body {
 
 .contact-item {
     font-size: 20px;
-    margin-right: 25px;
+    padding-inline-start: 0;
+    padding: 0rem 15rem 5rem 15rem;
     list-style: none;
 }
 
 .contact-item li {
     display: inline;
-    margin: 0 50px 0 50px;
+    padding: 0 50px 0 50px;
     font-size: 20px;
 }
 
@@ -89,7 +134,9 @@ body {
         flex: 1 0 200px;
     }
     
-    .project-info img:first-of-type {
+    .project-info a,
+    .project-info a:first-of-type {
         width: 50%;
+        height: 20rem;
     }
 }
