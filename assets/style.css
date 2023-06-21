@@ -44,7 +44,6 @@ body {
     align-items: center;
     margin: 0 25px 0 25px;
     padding: 5rem 15rem 0 15rem;
-    border-bottom: solid 2px var(--main-color);
 }
 
 .project-info {
@@ -58,6 +57,7 @@ body {
 }
 
 .project-info a{
+    background-color: gray;
     display: block;
     width: 50%;
     padding: 25px;
