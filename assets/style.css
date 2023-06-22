@@ -60,6 +60,18 @@ body {
     padding: 5rem 15rem 0 15rem;
 }
 
+.about-me p:first-of-type {
+    text-align: justify;
+}
+
+.pfp-image {
+    float: left;
+    margin-right: 10px;
+    width: 150px;
+    height: auto;
+
+}
+
 .project-info {
     background-color: var(--main-color);
     display: flex;
