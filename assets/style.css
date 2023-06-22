@@ -73,7 +73,6 @@ body {
 .project-info a:first-of-type {
     width: 100%;
     height: 40rem;
-    position: intial;
 }
 
 /* borrowed this code from stackoverflow https://stackoverflow.com/questions/14562457/center-oversized-image-in-div */
