@@ -95,7 +95,7 @@ body {
 }
 
 .project-info a {
-    background-color: var(--secondary-color);
+    background-color: var(--accent-color);
     display: block;
     width: 50%;
     padding: 25px;
@@ -176,7 +176,7 @@ body {
     color: var(--main-color);
 }
 
-@media screen and (max-width: 996px) {
+@media screen and (max-width: 992px) {
     .project-info {
         flex-direction: column;
         align-items: center;
