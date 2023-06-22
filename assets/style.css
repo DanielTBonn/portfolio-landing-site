@@ -6,13 +6,6 @@
     --extra-color: #B1A296;
 }
 
-body {
-    padding: 0;
-    margin: 0;
-    color: var(--click-color); 
-    font-family: 'Times New Roman', Times, serif;
-}
-
 .header {
     background-color: var(--main-color);
     color: var(--extra-color);
@@ -20,6 +13,13 @@ body {
     justify-content: space-between;
     padding-bottom: 10px;
     border-bottom: solid black 1px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    color: var(--click-color); 
     font-family: 'Times New Roman', Times, serif;
 }
 
