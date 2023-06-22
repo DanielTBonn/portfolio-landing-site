@@ -57,16 +57,24 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5rem 15rem 0 15rem;
+    font-size: 20px;
+    padding: 5rem 15rem 5rem 15rem;
+    border-bottom: solid black 1px;
 }
 
-.about-me p:first-of-type {
-    text-align: justify;
+.info-section p {
+    margin: 0 0 1.8rem 0;
+    line-height: 1.5;
+    text-indent: 45px;
+}
+
+.info-section p:first-of-type {
+    text-indent: 0;
 }
 
 .pfp-image {
     float: left;
-    margin-right: 10px;
+    margin: 5px 15px 2px 0;
     width: 150px;
     height: auto;
 
@@ -79,6 +87,7 @@ body {
     justify-content: center;
     padding: 5rem 15rem;
     margin: 0;
+    border-bottom: solid black 1px;
 }
 
 .project-info h2 {
