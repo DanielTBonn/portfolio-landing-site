@@ -61,6 +61,10 @@ body {
     padding: 5rem 15rem 5rem 15rem;
     border-bottom: solid black 1px;
 }
+.about-me h2 {
+    margin: 0;
+    padding: 2rem;
+}
 
 .info-section p {
     margin: 0 0 1.8rem 0;
@@ -92,6 +96,8 @@ body {
 
 .project-info h2 {
     color: var(--accent-color);
+    margin: auto;
+    padding: 2rem;
 }
 
 .project-info a {
