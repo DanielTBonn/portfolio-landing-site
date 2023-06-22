@@ -8,6 +8,7 @@
 body {
     padding: 0;
     margin: 0;
+    color: var(--accent-color)
 }
 
 .header {
@@ -36,7 +37,7 @@ body {
 .nav-item li a,
 .contact-item li a {
     text-decoration: none;
-    color: var(--click-color);
+    color: var(--accent-color);
     font-family: 'Times New Roman', Times, serif;
  }
 
@@ -63,7 +64,7 @@ body {
     width: 50%;
     padding: 25px;
     margin: 5px 0 0 0;
-    border: solid var(--accent-color) 5px;
+    border: solid var(--click-color) 5px;
     box-sizing: border-box;
     height: 20rem;
     position: relative;
@@ -88,9 +89,9 @@ body {
 
 .project-info a p {
     background-color: var(--main-color);
-    border: solid 2px var(--accent-color);
+    border: solid 2px var(--click-color);
     font-size: 1.5rem;
-    color: white;
+    color: var(--accent-color);
     position: absolute;
     top: 0;
     left: 0;
@@ -99,11 +100,11 @@ body {
 }
 
 .project-info a:hover {
-    box-shadow: 5px 5px 15px green;
+    box-shadow: 5px 5px 15px var(--click-color);
 }
 
 .project-info a:active {
-    box-shadow: 5px 5px 25px black;
+    box-shadow: 5px 5px 25px var(--accent-color);
 }
 
 .contact-info {
