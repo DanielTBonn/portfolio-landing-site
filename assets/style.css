@@ -1,8 +1,8 @@
 :root {
-    --main-color: rgba(0, 58, 128, 0.974);
-    --secondary-color: rgba(2, 78, 105, .9);
-    --click-color: red;
-    --project-window-color: lime;
+    --main-color: #032539;
+    --secondary-color: #1C768F;
+    --accent-color: #FA991C;
+    --click-color: #FBF3F2;
 }
 
 body {
@@ -58,12 +58,12 @@ body {
 }
 
 .project-info a {
-    background-color: gray;
+    background-color: var(--main-color);
     display: block;
     width: 50%;
     padding: 25px;
     margin: 5px 0 0 0;
-    border: solid var(--project-window-color) 5px;
+    border: solid var(--accent-color) 5px;
     box-sizing: border-box;
     height: 20rem;
     position: relative;
@@ -88,8 +88,8 @@ body {
 }
 
 .project-info a p {
-    background-color: tan;
-    border: solid 2px lime;
+    background-color: var(--main-color);
+    border: solid 2px var(--accent-color);
     font-size: 1.5rem;
     color: white;
     position: absolute;
