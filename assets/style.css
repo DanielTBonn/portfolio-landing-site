@@ -1,5 +1,6 @@
 :root {
-    --main-color: navy;
+    --main-color: rgba(0, 58, 128, 0.974);
+    --secondary-color: rgba(2, 78, 105, .9);
     --click-color: red;
     --project-window-color: lime;
 }
@@ -40,15 +41,15 @@ body {
  }
 
 .about-me {
+    background-color: var(--secondary-color);
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 25px 0 25px;
     padding: 5rem 15rem 0 15rem;
 }
 
 .project-info {
-    background-color: black;
+    background-color: var(--main-color);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -107,6 +108,7 @@ body {
 }
 
 .contact-info {
+    background-color: var(--secondary-color);
     display: flex;
     flex-direction: column;
     align-items: center;
