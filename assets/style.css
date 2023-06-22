@@ -1,21 +1,24 @@
 :root {
-    --main-color: #032539;
-    --secondary-color: #1C768F;
-    --accent-color: #FA991C;
-    --click-color: #FBF3F2;
+    --main-color: #5D5C61;
+    --secondary-color: #3796836e;
+    --accent-color: #7395ae;
+    --click-color: #557A95;
+    --extra-color: #B1A296;
 }
 
 body {
     padding: 0;
     margin: 0;
-    color: var(--accent-color);
+    color: var(--click-color); 
 }
 
 .header {
     background-color: var(--main-color);
+    color: var(--extra-color);
     display: flex;
     justify-content: space-between;
     padding-bottom: 10px;
+    border-bottom: solid black 1px;
 }
 
 .title {
@@ -37,8 +40,14 @@ body {
 .nav-item li a,
 .contact-item li a {
     text-decoration: none;
-    color: var(--accent-color);
+    color: var(--extra-color);
     font-family: 'Times New Roman', Times, serif;
+ }
+
+ .about-me,
+ .project-info,
+ .contact-info {
+    color: var(--main-color)
  }
 
 .about-me {
@@ -59,12 +68,12 @@ body {
 }
 
 .project-info a {
-    background-color: var(--main-color);
+    background-color: var(--secondary-color);
     display: block;
     width: 50%;
     padding: 25px;
     margin: 5px 0 0 0;
-    border: solid var(--click-color) 5px;
+    border: solid var(--accent-color) 5px;
     box-sizing: border-box;
     height: 20rem;
     position: relative;
