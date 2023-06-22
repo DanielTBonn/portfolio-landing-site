@@ -45,7 +45,6 @@ body {
  }
 
  .about-me,
- .project-info,
  .contact-info {
     color: var(--main-color)
  }
@@ -77,7 +76,7 @@ body {
     width: 50%;
     padding: 25px;
     margin: 5px 0 0 0;
-    border: solid var(--accent-color) 5px;
+    border: solid var(--extra-color) 5px;
     box-sizing: border-box;
     height: 20rem;
     position: relative;
@@ -102,7 +101,8 @@ body {
 
 .project-info a p {
     background-color: var(--main-color);
-    border: solid 2px var(--click-color);
+    border: solid var(--extra-color) 5px;
+    border-left: 0;
     font-size: 1.5rem;
     color: var(--accent-color);
     position: absolute;
