@@ -143,11 +143,11 @@ body {
 }
 
 .project-info a:hover {
-    box-shadow: 5px 5px 15px var(--click-color);
+    box-shadow: 5px 5px 20px var(--accent-color);
 }
 
 .project-info a:active {
-    box-shadow: 5px 5px 25px var(--accent-color);
+    box-shadow: 5px 5px 30px var(--extra-color);
 }
 
 /* 
