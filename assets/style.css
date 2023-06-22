@@ -67,6 +67,10 @@ body {
     margin: 0;
 }
 
+.project-info h2 {
+    color: var(--accent-color);
+}
+
 .project-info a {
     background-color: var(--secondary-color);
     display: block;
