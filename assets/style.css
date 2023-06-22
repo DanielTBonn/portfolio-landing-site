@@ -1,6 +1,6 @@
 :root {
     --main-color: #5D5C61;
-    --secondary-color: #3796836e;
+    --secondary-color: #85c1b5fc;
     --accent-color: #7395ae;
     --click-color: #557A95;
     --extra-color: #B1A296;
@@ -40,8 +40,11 @@ body {
 .nav-item li a,
 .contact-item li a {
     text-decoration: none;
-    color: var(--extra-color);
     font-family: 'Times New Roman', Times, serif;
+ }
+
+ .nav-item li a {
+    color: var(--extra-color);
  }
 
  .about-me,
@@ -100,11 +103,11 @@ body {
 }
 
 .project-info a p {
-    background-color: var(--main-color);
+    background-color: var(--secondary-color);
     border: solid var(--extra-color) 5px;
     border-left: 0;
     font-size: 1.5rem;
-    color: var(--accent-color);
+    color: var(--main-color);
     position: absolute;
     top: 0;
     left: 0;
@@ -119,6 +122,14 @@ body {
 .project-info a:active {
     box-shadow: 5px 5px 25px var(--accent-color);
 }
+
+/* 
+.contact-item li a:hover {
+    transition-duration: 0.1s;
+    transition-timing-function: ease-out;
+    transition-delay: 0s;
+    transition-property: transform;
+} */
 
 .contact-info {
     background-color: var(--secondary-color);
@@ -138,6 +149,10 @@ body {
     display: inline;
     padding: 0 50px 0 50px;
     font-size: 20px;
+}
+
+.contact-info a {
+    color: var(--main-color);
 }
 
 @media screen and (max-width: 996px) {
