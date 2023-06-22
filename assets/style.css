@@ -1,19 +1,24 @@
 :root {
-    --main-color: navy;
-    --click-color: red;
-    --project-window-color: lime;
+    --main-color: #5D5C61;
+    --secondary-color: #85c1b5fc;
+    --accent-color: #7395ae;
+    --click-color: #557A95;
+    --extra-color: #B1A296;
 }
 
 body {
     padding: 0;
     margin: 0;
+    color: var(--click-color); 
 }
 
 .header {
     background-color: var(--main-color);
+    color: var(--extra-color);
     display: flex;
     justify-content: space-between;
     padding-bottom: 10px;
+    border-bottom: solid black 1px;
 }
 
 .title {
@@ -35,20 +40,28 @@ body {
 .nav-item li a,
 .contact-item li a {
     text-decoration: none;
-    color: var(--click-color);
     font-family: 'Times New Roman', Times, serif;
  }
 
+ .nav-item li a {
+    color: var(--extra-color);
+ }
+
+ .about-me,
+ .contact-info {
+    color: var(--main-color)
+ }
+
 .about-me {
+    background-color: var(--secondary-color);
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 25px 0 25px;
     padding: 5rem 15rem 0 15rem;
 }
 
 .project-info {
-    background-color: black;
+    background-color: var(--main-color);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -56,13 +69,17 @@ body {
     margin: 0;
 }
 
+.project-info h2 {
+    color: var(--accent-color);
+}
+
 .project-info a {
-    background-color: gray;
+    background-color: var(--secondary-color);
     display: block;
     width: 50%;
     padding: 25px;
     margin: 5px 0 0 0;
-    border: solid var(--project-window-color) 5px;
+    border: solid var(--extra-color) 5px;
     box-sizing: border-box;
     height: 20rem;
     position: relative;
@@ -72,7 +89,6 @@ body {
 .project-info a:first-of-type {
     width: 100%;
     height: 40rem;
-    position: intial;
 }
 
 /* borrowed this code from stackoverflow https://stackoverflow.com/questions/14562457/center-oversized-image-in-div */
@@ -87,10 +103,11 @@ body {
 }
 
 .project-info a p {
-    background-color: tan;
-    border: solid 2px lime;
+    background-color: var(--secondary-color);
+    border: solid var(--extra-color) 5px;
+    border-left: 0;
     font-size: 1.5rem;
-    color: white;
+    color: var(--main-color);
     position: absolute;
     top: 0;
     left: 0;
@@ -99,14 +116,23 @@ body {
 }
 
 .project-info a:hover {
-    box-shadow: 5px 5px 15px green;
+    box-shadow: 5px 5px 15px var(--click-color);
 }
 
 .project-info a:active {
-    box-shadow: 5px 5px 25px black;
+    box-shadow: 5px 5px 25px var(--accent-color);
 }
 
+/* 
+.contact-item li a:hover {
+    transition-duration: 0.1s;
+    transition-timing-function: ease-out;
+    transition-delay: 0s;
+    transition-property: transform;
+} */
+
 .contact-info {
+    background-color: var(--secondary-color);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -123,6 +149,10 @@ body {
     display: inline;
     padding: 0 50px 0 50px;
     font-size: 20px;
+}
+
+.contact-info a {
+    color: var(--main-color);
 }
 
 @media screen and (max-width: 996px) {
