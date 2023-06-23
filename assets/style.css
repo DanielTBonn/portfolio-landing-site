@@ -14,7 +14,6 @@ body {
 
 header {
     background-color: var(--main-color);
-    color: var(--extra-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,8 +21,10 @@ header {
     border-bottom: solid black 1px;
 }
 
-header h1 {
+header h1,
+.nav-item li a {
     margin: 0;
+    color: var(--extra-color);
 }
 
 .nav-item {
@@ -40,10 +41,6 @@ header h1 {
 .nav-item li a,
 .contact-item li a {
     text-decoration: none;
-}
-
-.nav-item li a {
-    color: var(--extra-color);
 }
 
 .about-me,
@@ -157,12 +154,12 @@ header h1 {
 }
 
 .contact-item {
-    padding-inline-start: 0;
     padding: 0rem 15rem 5rem 15rem;
+    list-style: none;
+    display: flex;
 }
 
 .contact-item li {
-    display: inline;
     padding: 0 50px 0 50px;
 }
 
