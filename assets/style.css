@@ -148,14 +148,6 @@ header h1 {
     padding: 1.75rem 1.5rem 1.75rem 1rem;
 }
 
-/* 
-.contact-item li a:hover {
-    transition-duration: 0.1s;
-    transition-timing-function: ease-out;
-    transition-delay: 0s;
-    transition-property: transform;
-} */
-
 .contact-info {
     background-color: var(--secondary-color);
     display: flex;
@@ -177,6 +169,14 @@ header h1 {
 .contact-info a {
     color: var(--main-color);
 }
+
+/* 
+.contact-item a:hover {
+    transition-duration: 0.1s;
+    transition-timing-function: ease-out;
+    transition-delay: 0s;
+    transition-property: transform;
+} */
 
 @media screen and (max-width: 992px) {
     .project-info {
