@@ -159,6 +159,7 @@ header h1,
 }
 
 .contact-item li {
+    white-space: nowrap;
     padding: 0 50px 0 50px;
 }
 
