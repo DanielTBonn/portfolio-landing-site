@@ -17,4 +17,5 @@ https://danieltbonn.github.io/portfolio-landing-site/
 ## Credits
 
 Borrowed code from hyounis on stackoverflow.com to position my project images in the center of my a tags.
+
 Link: https://stackoverflow.com/questions/14562457/center-oversized-image-in-div
