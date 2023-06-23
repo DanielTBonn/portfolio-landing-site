@@ -78,7 +78,7 @@ header h1,
     margin: 5px 15px 2px 0;
     width: 150px;
     height: auto;
-    border-radius: 50%;
+    border-radius: 25%;
 }
 
 .project-info {
