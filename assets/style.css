@@ -115,6 +115,14 @@ header {
     height: 40rem;
 }
 
+.project-info a:hover {
+    box-shadow: 5px 5px 20px var(--accent-color);
+}
+
+.project-info a:active {
+    box-shadow: 5px 5px 30px var(--extra-color);
+}
+
 /* borrowed the position code from stackoverflow https://stackoverflow.com/questions/14562457/center-oversized-image-in-div */
 .project-info a img {
     width: 100%;
@@ -139,14 +147,6 @@ header {
     left: 0;
     width: 25%;
     padding: 1.75rem 1.5rem 1.75rem 1rem;
-}
-
-.project-info a:hover {
-    box-shadow: 5px 5px 20px var(--accent-color);
-}
-
-.project-info a:active {
-    box-shadow: 5px 5px 30px var(--extra-color);
 }
 
 /* 
