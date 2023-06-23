@@ -56,6 +56,7 @@ header h1,
     padding: 5rem 15rem 5rem 15rem;
     border-bottom: solid black 1px;
 }
+
 .about-me h2,
 .project-info h2 {
     margin: auto;
@@ -168,6 +169,19 @@ header h1,
 }
 
 @media screen and (max-width: 992px) {
+    body {
+        font-size: 3vw;
+    }
+    
+    .about-me,
+    .contact-info {
+        padding: 2.5rem 5rem;
+    }
+
+    .pfp-image{
+       width: 25%; 
+    }
+    
     .project-info {
         flex-direction: column;
         align-items: center;
@@ -180,10 +194,3 @@ header h1,
         height: 20rem;
     }
 }
-
-@media screen and (max-width: 768px) {
-    body {
-        font-size: 3vw;
-    }
-}
-
