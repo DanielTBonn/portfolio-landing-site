@@ -8,6 +8,8 @@ I spent a great deal of time learning how to properly use flexbox and how its ch
 
 ## Webpage
 
+ ![My portfolio website](assets/images/webpage-pic.png)
+
 ## Link
 
 https://danieltbonn.github.io/portfolio-landing-site/
