@@ -167,10 +167,6 @@ header h1,
 }
 
 @media screen and (max-width: 992px) {
-    /* body {
-        font-size: 3vw;
-    } */
-    
     .project-info {
         flex-direction: column;
         align-items: center;
