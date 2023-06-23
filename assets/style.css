@@ -171,6 +171,7 @@ header h1,
 @media screen and (max-width: 992px) {
     body {
         font-size: 3vw;
+        overflow-x: hidden;
     }
     
     .about-me,
