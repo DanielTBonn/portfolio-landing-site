@@ -16,8 +16,5 @@ https://danieltbonn.github.io/portfolio-landing-site/
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+Borrowed code from hyounis on stackoverflow.com to position my project images in the center of my a tags.
+Link: https://stackoverflow.com/questions/14562457/center-oversized-image-in-div
